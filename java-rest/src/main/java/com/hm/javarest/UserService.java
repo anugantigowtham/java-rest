@@ -3,7 +3,7 @@ package com.hm.javarest;
 public abstract class UserService {
 
 	
-	public abstract void addUser();
+	public abstract <T> void addUser(T t);
 	
 	public abstract void getUsers();
 	
